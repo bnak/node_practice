@@ -14,3 +14,5 @@ https://nodejs.org/api/readline.html
 https://howtonode.org/hello-node
 
 https://blog.xervo.io/build-your-first-http-server-in-nodejs
+
+https://www.codementor.io/nodejs/tutorial/how-to-use-json-files-in-node-js

@@ -1,6 +1,6 @@
 
 ignore/*
-../.idea/*
+.idea
 
 # Logs
 logs
