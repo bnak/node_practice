@@ -3,9 +3,9 @@
 // the structure of this document) from a file and outputs the properties of
 // the JavaScript object/object graph to the UI
 
-const readJSON = require('./readJSON')
+const readJSON = require('./readJSON');
 
-obj = readJSON.readJSON('./resources/sample.json');
+obj = readJSON.readJSON('app/resources/sample.json');
 console.log(obj);
 
 //Lets require/import the HTTP module
@@ -18,7 +18,7 @@ const PORT=8080;
 function handleRequest(request, response){
     response.setHeader('Content-Type', 'application/json');
     response.write(JSON.stringify(obj));
-    response.end()
+    response.end();
 }
 
 //Create a server

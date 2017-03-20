@@ -4,7 +4,7 @@ var fs = require('fs');
 //synchronous
 function readJSON(filePath){
 
-	console.log("ReadJSON function")
+	console.log("ReadJSON function");
 
 	content = fs.readFileSync(filePath);
 	var obj = JSON.parse(content);
@@ -12,4 +12,4 @@ function readJSON(filePath){
 	return obj;
 }
 
-module.exports.readJSON = readJSON 
+module.exports.readJSON = readJSON;
