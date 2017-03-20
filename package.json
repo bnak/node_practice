@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bnak/node_practice/issues"
   },
-  "homepage": "https://github.com/bnak/node_practice#readme"
+  "homepage": "https://github.com/bnak/node_practice#readme",
+  "dependencies": {
+    "reverse-string": "0.0.6"
+  }
 }

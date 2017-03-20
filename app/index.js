@@ -1,6 +1,7 @@
-//const reverseString = require('./reverseString');
 
+//1. Write a console app that accepts a string as input and outputs the provided string in reverse
 
+var reverse = require('reverse-string');
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -8,12 +9,10 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Please provide input string to be reversed: ', (answer) => {
-
-  console.log(`Reverse string: ${answer}`);
+rl.question('Please provide input string to be reversed by characters: ', (answer) => {
+  reversed = reverse(answer);
+  console.log(`Reverse string: ${reversed}`);
 
   rl.close();
 });
 
-//reverseString.reverseString()
-// console.log(`The result is: ${result}`)  
