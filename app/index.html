@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <p> Click anywhere! </p>
+        <p id="example" onclick="printMousePos()"></p>
+    </body>
+</html>
+
+
+
+<script>
+
+   function printMousePos(event) {
+      document.body.textContent =
+        "Mouse coordinates from top left:  " +
+        "X: " + event.clientX +
+        " - Y: " + event.clientY;
+    }
+
+  document.addEventListener("click", printMousePos);
+
+
+</script>
