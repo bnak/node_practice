@@ -3,14 +3,15 @@
 # node_practice
 Node.js Exercises
 
-## Quickstart:
+## Quickstart (use branch relevant to each question):
 `npm install`
 
 `npm start`
 
 ### Branch: develop_q1
 Write a console app that accepts a string as input and outputs the provided string in reverse
-Notes: Reverses by character
+Note: Reverses by character
+
 `npm start`
 
 ### Branch: develop_q2
