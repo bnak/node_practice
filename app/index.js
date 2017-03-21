@@ -2,9 +2,6 @@
 //4. Provide an http app that serves up a page that includes javascript that outputs the mouse coordinates
 //when clicked to the browser console.
 
-
-
-
 var express = require('express');
 var app = express();
 
